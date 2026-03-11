@@ -1,0 +1,10 @@
+com\sis258\estudiantes\ConexionMySQL.class
+com\sis258\estudiantes\Estudiante.class
+com\sis258\estudiantes\EstudianteDAO.class
+com\sis258\estudiantes\EstudianteVista.class
+com\sis258\estudiantes\MateriaDAO.class
+com\sis258\estudiantes\ConexionPostgreSQL.class
+com\sis258\estudiantes\MateriaVista.class
+com\sis258\estudiantes\IConexionBD.class
+com\sis258\estudiantes\Materia.class
+com\sis258\estudiantes\Estudiantes.class
