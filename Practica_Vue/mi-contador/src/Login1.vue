@@ -32,7 +32,7 @@ export default {
 
       try {
         // Petición real a tu microservicio de Usuarios
-        const res = await fetch("http://localhost:3000/api/v1/login", {
+        const res = await fetch("http://localhost/api/v1/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"

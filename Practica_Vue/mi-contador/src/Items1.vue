@@ -120,7 +120,7 @@ export default {
     async eliminarItem(id) {
       if(confirm("¿Seguro que deseas borrar este ítem?")) {
         try {
-          const res = await fetch(`http://localhost:3002/api/v1/items/${id}`, { 
+          const res = await fetch(`http://localhost/api/v1/items/${id}`, { 
             method: "DELETE",
             headers: this.getHeaders()
           });

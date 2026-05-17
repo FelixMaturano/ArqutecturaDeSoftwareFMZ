@@ -112,7 +112,7 @@ export default {
     async eliminarCategoria(id) {
       if(confirm("¿Seguro que deseas borrar esta categoría?")) {
         try {
-          const res = await fetch(`http://localhost:3005/api/v1/categories/${id}`, { 
+          const res = await fetch(`http://localhost/api/v1/categories/${id}`, { 
             method: "DELETE",
             headers: this.getHeaders()
           });
